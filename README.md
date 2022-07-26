@@ -7,5 +7,7 @@ contacto que es un formulario.
 
 La fuente utilizada es Poppins de Google Fonts: https://fonts.google.com/specimen/Poppins?query=popp
 
+Para visualizar el sitio: https://arnaldoreyes.github.io/Inmobiliaria-Bootsrap/
+
 PS: Los botones y formularios en la pag no funcionanan.
 
