@@ -8,11 +8,11 @@
 }
 
 body{
-    background: #f1fbff;
+    background: #e3edf1;
 }
 
 .section-padding{
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .carousel-item{
@@ -77,6 +77,26 @@ body{
     height: 100vh;
 }
 
+.btn, 
+.btn-lg{
+    background-color: #00C5A6;
+    border: 0.2rem solid #00C5A6;
+}
+
+.btn:hover{
+    background: rgba(0, 197, 166, 0.6);
+    cursor: pointer;
+}
+
+.btn-lg:hover{
+    background: rgba(0, 197, 166, 0.6);
+    cursor: pointer;
+}
+
+.services .card{
+    background: #4B626A;
+}
+
 .services .card-body i{
     font-size: 50px;
 }
@@ -93,10 +113,22 @@ body{
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
+.team .socials{
+    text-decoration: none;
+    color: #31393C;
+}
+
+.team .socials i:hover{
+    cursor: pointer;
+    color: #00C5A6;
+}
+
+
+
 
 /* ******************* Responsive CSS ******************* */
 
-@media only screen and (min-width: 768px) and (max-width: 991px){
+@media only screen and (min-width: 769px) and (max-width: 991px){
     .carousel-caption{
         bottom: 380px;
     }
@@ -111,15 +143,15 @@ body{
     }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
     .navbar-nav{
         text-align: center;
     }
     .carousel-caption{
-        bottom: 320px;
+        bottom: 115px;
     }
     .carousel-caption h5{
-        font-size: 32px;
+        font-size: 30px;
     }
     .carousel-caption a{
         padding: 10px 15px;
@@ -136,3 +168,4 @@ body{
         margin-bottom: 30px;
     }
 }
+
